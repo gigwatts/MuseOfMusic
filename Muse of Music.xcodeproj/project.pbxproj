@@ -14,6 +14,19 @@
 		DA1277051CCBD5F500A3F4EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1277031CCBD5F500A3F4EF /* LaunchScreen.storyboard */; };
 		DA1277101CCBD5F500A3F4EF /* Muse_of_MusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA12770F1CCBD5F500A3F4EF /* Muse_of_MusicTests.swift */; };
 		DA12771B1CCBD5F500A3F4EF /* Muse_of_MusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA12771A1CCBD5F500A3F4EF /* Muse_of_MusicUITests.swift */; };
+		DA1277291CCBE85300A3F4EF /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1277281CCBE85300A3F4EF /* VideosViewController.swift */; };
+		DA12772B1CCBF73300A3F4EF /* VideoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA12772A1CCBF73300A3F4EF /* VideoListViewController.swift */; };
+		DA12772D1CCDBFB300A3F4EF /* musicNotation.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA12772C1CCDBFB200A3F4EF /* musicNotation.sks */; };
+		DA12772F1CCDC35300A3F4EF /* musicNotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA12772E1CCDC35300A3F4EF /* musicNotation.swift */; };
+		DA1277311CD1684A00A3F4EF /* circleOfFifthsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1277301CD1684A00A3F4EF /* circleOfFifthsViewController.swift */; };
+		DAAAD2731CD464CF008E0F76 /* ScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAAD2721CD464CF008E0F76 /* ScaleViewController.swift */; };
+		DAAAD2751CD465AA008E0F76 /* AVTonePlayerUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAAD2741CD465AA008E0F76 /* AVTonePlayerUnit.swift */; };
+		DAAAD2771CD473E9008E0F76 /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAAAD2761CD473E9008E0F76 /* AudioKit.framework */; };
+		DAAAD2781CD473E9008E0F76 /* AudioKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DAAAD2761CD473E9008E0F76 /* AudioKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DAAAD2821CD5CF73008E0F76 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAAAD2811CD5CF73008E0F76 /* AVFoundation.framework */; };
+		DAAAD2861CD5CFC5008E0F76 /* metronomeBeat.wav in Resources */ = {isa = PBXBuildFile; fileRef = DAAAD2841CD5CFC5008E0F76 /* metronomeBeat.wav */; };
+		DAAAD2871CD5CFC5008E0F76 /* metronomeDownbeat.wav in Resources */ = {isa = PBXBuildFile; fileRef = DAAAD2851CD5CFC5008E0F76 /* metronomeDownbeat.wav */; };
+		DAAAD2891CD70449008E0F76 /* MetronomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAAD2881CD70449008E0F76 /* MetronomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +46,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DAAAD2791CD473E9008E0F76 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DAAAD2781CD473E9008E0F76 /* AudioKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		DA1276F71CCBD5F500A3F4EF /* Muse of Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Muse of Music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA1276FA1CCBD5F500A3F4EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +74,18 @@
 		DA1277161CCBD5F500A3F4EF /* Muse of MusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Muse of MusicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA12771A1CCBD5F500A3F4EF /* Muse_of_MusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Muse_of_MusicUITests.swift; sourceTree = "<group>"; };
 		DA12771C1CCBD5F500A3F4EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA1277281CCBE85300A3F4EF /* VideosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosViewController.swift; sourceTree = "<group>"; };
+		DA12772A1CCBF73300A3F4EF /* VideoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoListViewController.swift; sourceTree = "<group>"; };
+		DA12772C1CCDBFB200A3F4EF /* musicNotation.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = musicNotation.sks; sourceTree = "<group>"; };
+		DA12772E1CCDC35300A3F4EF /* musicNotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = musicNotation.swift; sourceTree = "<group>"; };
+		DA1277301CD1684A00A3F4EF /* circleOfFifthsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = circleOfFifthsViewController.swift; sourceTree = "<group>"; };
+		DAAAD2721CD464CF008E0F76 /* ScaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScaleViewController.swift; path = ../ScaleViewController.swift; sourceTree = "<group>"; };
+		DAAAD2741CD465AA008E0F76 /* AVTonePlayerUnit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVTonePlayerUnit.swift; sourceTree = "<group>"; };
+		DAAAD2761CD473E9008E0F76 /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AudioKit.framework; sourceTree = "<group>"; };
+		DAAAD2811CD5CF73008E0F76 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DAAAD2841CD5CFC5008E0F76 /* metronomeBeat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = metronomeBeat.wav; sourceTree = "<group>"; };
+		DAAAD2851CD5CFC5008E0F76 /* metronomeDownbeat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = metronomeDownbeat.wav; sourceTree = "<group>"; };
+		DAAAD2881CD70449008E0F76 /* MetronomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetronomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +93,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAAAD2821CD5CF73008E0F76 /* AVFoundation.framework in Frameworks */,
+				DAAAD2771CD473E9008E0F76 /* AudioKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +118,8 @@
 		DA1276EE1CCBD5F500A3F4EF = {
 			isa = PBXGroup;
 			children = (
+				DAAAD2811CD5CF73008E0F76 /* AVFoundation.framework */,
+				DAAAD2761CD473E9008E0F76 /* AudioKit.framework */,
 				DA1276F91CCBD5F500A3F4EF /* Muse of Music */,
 				DA12770E1CCBD5F500A3F4EF /* Muse of MusicTests */,
 				DA1277191CCBD5F500A3F4EF /* Muse of MusicUITests */,
@@ -99,8 +142,17 @@
 			children = (
 				DA1276FA1CCBD5F500A3F4EF /* AppDelegate.swift */,
 				DA1276FC1CCBD5F500A3F4EF /* ViewController.swift */,
+				DA1277281CCBE85300A3F4EF /* VideosViewController.swift */,
+				DAAAD2721CD464CF008E0F76 /* ScaleViewController.swift */,
 				DA1276FE1CCBD5F500A3F4EF /* Main.storyboard */,
+				DAAAD2741CD465AA008E0F76 /* AVTonePlayerUnit.swift */,
+				DAAAD2881CD70449008E0F76 /* MetronomeViewController.swift */,
+				DA1277301CD1684A00A3F4EF /* circleOfFifthsViewController.swift */,
+				DA12772E1CCDC35300A3F4EF /* musicNotation.swift */,
+				DA12772C1CCDBFB200A3F4EF /* musicNotation.sks */,
+				DA12772A1CCBF73300A3F4EF /* VideoListViewController.swift */,
 				DA1277011CCBD5F500A3F4EF /* Assets.xcassets */,
+				DAAAD2831CD5CFA5008E0F76 /* Sounds */,
 				DA1277031CCBD5F500A3F4EF /* LaunchScreen.storyboard */,
 				DA1277061CCBD5F500A3F4EF /* Info.plist */,
 			);
@@ -125,6 +177,15 @@
 			path = "Muse of MusicUITests";
 			sourceTree = "<group>";
 		};
+		DAAAD2831CD5CFA5008E0F76 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				DAAAD2841CD5CFC5008E0F76 /* metronomeBeat.wav */,
+				DAAAD2851CD5CFC5008E0F76 /* metronomeDownbeat.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +196,7 @@
 				DA1276F31CCBD5F500A3F4EF /* Sources */,
 				DA1276F41CCBD5F500A3F4EF /* Frameworks */,
 				DA1276F51CCBD5F500A3F4EF /* Resources */,
+				DAAAD2791CD473E9008E0F76 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,7 +292,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA1277051CCBD5F500A3F4EF /* LaunchScreen.storyboard in Resources */,
+				DAAAD2871CD5CFC5008E0F76 /* metronomeDownbeat.wav in Resources */,
+				DA12772D1CCDBFB300A3F4EF /* musicNotation.sks in Resources */,
 				DA1277021CCBD5F500A3F4EF /* Assets.xcassets in Resources */,
+				DAAAD2861CD5CFC5008E0F76 /* metronomeBeat.wav in Resources */,
 				DA1277001CCBD5F500A3F4EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +321,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAAAD2731CD464CF008E0F76 /* ScaleViewController.swift in Sources */,
+				DAAAD2891CD70449008E0F76 /* MetronomeViewController.swift in Sources */,
+				DA1277291CCBE85300A3F4EF /* VideosViewController.swift in Sources */,
 				DA1276FD1CCBD5F500A3F4EF /* ViewController.swift in Sources */,
+				DAAAD2751CD465AA008E0F76 /* AVTonePlayerUnit.swift in Sources */,
+				DA12772B1CCBF73300A3F4EF /* VideoListViewController.swift in Sources */,
+				DA1277311CD1684A00A3F4EF /* circleOfFifthsViewController.swift in Sources */,
+				DA12772F1CCDC35300A3F4EF /* musicNotation.swift in Sources */,
 				DA1276FB1CCBD5F500A3F4EF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,6 +473,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Muse of Music/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gigwatts.Muse-of-Music";
@@ -412,6 +488,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Muse of Music/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gigwatts.Muse-of-Music";
@@ -484,6 +564,7 @@
 				DA1277211CCBD5F500A3F4EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA1277221CCBD5F500A3F4EF /* Build configuration list for PBXNativeTarget "Muse of MusicTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +573,7 @@
 				DA1277241CCBD5F500A3F4EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA1277251CCBD5F500A3F4EF /* Build configuration list for PBXNativeTarget "Muse of MusicUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +582,7 @@
 				DA1277271CCBD5F500A3F4EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
